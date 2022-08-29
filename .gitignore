@@ -1,0 +1,6 @@
+.*/
+pyg_data/
+__pycache__/
+*.pkl
+!.gitignore
+
