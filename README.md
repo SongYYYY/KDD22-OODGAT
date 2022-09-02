@@ -3,7 +3,7 @@ This is the repository for paper 'Learning on Graphs with Out-of-Distribution No
 
 https://dl.acm.org/doi/abs/10.1145/3534678.3539457
 
-To run the scripts, please create a folder named 'pyg_data' in the root directory. In the first run, datasets will be automatically downloaded to the folder from Pytorch_Geometric.
+To run the scripts, please create a folder named 'pyg_data' in the root directory. In the first run, datasets will be automatically downloaded to the folder from torch_Geometric.
 ## Usage
 ### install dependencies
 > pip install torch_geometric  
@@ -13,7 +13,7 @@ To run the scripts, please create a folder named 'pyg_data' in the root director
 > pip install scipy  
 ### download datasets
 (2022/8/30)
-Recent versions of torch_geometric seems to have changed the default directory structure of automatically downloaded datasets, therefore the script may not work properly. In such case, please unzip the file 'pyg_data.zip' to the root directory which contains the older version of datasets.
+Recent versions of torch_geometric seems to have changed the default directory structure of automatically downloaded datasets, therefore the script may not work properly. You may try earlier versions of torch_geometric, or download the older version of datasets from https://drive.google.com/file/d/1EMVHqOKyxnLyZLNPB-aERleS9zdCV8rJ/view?usp=sharing and unzip the file to the root directory of the python files.
 ### run baselines
 > python baseline.py 
 ### run OODGAT
